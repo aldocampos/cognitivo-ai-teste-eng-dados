@@ -3,11 +3,13 @@
 ## Considerações sobre o ambiente de trabalho
 *Utilizei o Jupyter Notebook, instalado em um ambiente Linux dentro de uma EC2. Decidi por essa configuração devido já ter todo o ambiente configurado.  .* 
 
-*O código-fonte do teste técnico encontra-se no repositório Github https://github.com/aldocampos/cognitivo-ai-teste-eng-dados/blob/master/resolucao.ipynb.* 
+*O código-fonte do teste técnico encontra-se no repositório Github: https://github.com/aldocampos/cognitivo-ai-teste-eng-dados/blob/master/resolucao.ipynb.* 
 
 # Requisitos
 1. Conversão do formato dos arquivos: Converter o arquivo CSV presente no diretório data/input/users/load.csv, 
 para um formato colunar de alta performance de leitura de sua escolha. Justificar brevemente a escolha do formato;
+
+*Decidi por utilizar o Parquet por ser um arquivo do tipo colunar, e por causa da sua compressão dos dados e o reduzido disco I/O. Com essas características, o Parquet necessita de menos espaço para armazenar os dados e tem uma melhora significativa na performance das consultas.*
 
 2. Deduplicação dos dados convertidos: No conjunto de dados convertidos haverão múltiplas entradas para um mesmo registro, 
 variando apenas os valores de alguns dos campos entre elas. 
