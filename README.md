@@ -3,7 +3,7 @@
 ## Considerações sobre o ambiente de trabalho
 *Utilizei o Jupyter Notebook, instalado em um ambiente Linux dentro de uma EC2. Decidi por essa configuração devido já ter todo o ambiente configurado.  .* 
 
-*O código-fonte do teste técnico encontra-se no repositório Github .* 
+*O código-fonte do teste técnico encontra-se no repositório Github https://github.com/aldocampos/cognitivo-ai-teste-eng-dados/blob/master/resolucao.ipynb.* 
 
 # Requisitos
 1. Conversão do formato dos arquivos: Converter o arquivo CSV presente no diretório data/input/users/load.csv, 
