@@ -7,7 +7,7 @@
 
 # Requisitos
 1. Conversão do formato dos arquivos: Converter o arquivo CSV presente no diretório data/input/users/load.csv, 
-para um formato colunar de alta performance de leitura de sua escolha. Justificar brevemente a escolha do formato. *Decidi por utilizar o Parquet por ser um arquivo do tipo colunar, e por causa da sua compressão dos dados e o reduzido disco I/O. Com essas características, o Parquet necessita de menos espaço para armazenar os dados e tem uma melhora significativa na performance das consultas.*
+para um formato colunar de alta performance de leitura de sua escolha. Justificar brevemente a escolha do formato. *Decidi por utilizar o Parquet por ser um arquivo do tipo colunar, e por causa da sua compressão dos dados e o reduzido disco I/O. Com essas características, o Parquet necessita de menos espaço para armazenar os dados e tem uma melhora significativa na performance das consultas. Reduzindo assim o custo do armazenamento e processamento dos dados, assim como o tempo para obter o resultado das consultas.*
 
 2. Deduplicação dos dados convertidos: No conjunto de dados convertidos haverão múltiplas entradas para um mesmo registro, 
 variando apenas os valores de alguns dos campos entre elas. 
